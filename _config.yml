@@ -1,5 +1,25 @@
-theme: jekyll-theme-slate
-github:
-  is_project_page: false
 title: eddinho
-description: =)
+description: 
+production_url: https://eddinho.github.io/
+
+
+# Required Plugins
+plugins_dir:
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Permalinks
+permalink: /:title
+
+# Other
+markdown: kramdown
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
